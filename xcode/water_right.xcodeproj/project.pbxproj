@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 44;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,13 +12,15 @@
 		00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */; };
 		00B784B50FF439BC000DE1D7 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B10FF439BC000DE1D7 /* AudioUnit.framework */; };
 		00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B20FF439BC000DE1D7 /* CoreAudio.framework */; };
+		1829CDE6A9804FB7AFAF185F /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = EAE8AFC1763A41829C5AD70E /* CinderApp.icns */; };
 		5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
 		5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B50EAFCA7E003A9687 /* QTKit.framework */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		EBD6AB16367B42209FAB09C9 /* water_right_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 34721FF403B24FEBAA319296 /* water_right_Prefix.pch */; };
-		1829CDE6A9804FB7AFAF185F /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = EAE8AFC1763A41829C5AD70E /* CinderApp.icns */; };
-		699256A82B7B4A13B73B59AC /* Resources.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B9F459C1CF047F981A31B40 /* Resources.h */; };
 		ABD8F59C52AF4A5EACBF5A69 /* water_rightApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E953774EC34CD88A936B0B /* water_rightApp.cpp */; };
+		FF256A0F1A15814E00501ED6 /* Waterdrop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF256A0B1A15814E00501ED6 /* Waterdrop.cpp */; };
+		FF256A101A15814E00501ED6 /* WaterdropCon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF256A0D1A15814E00501ED6 /* WaterdropCon.cpp */; };
+		FF256A131A15815E00501ED6 /* WD001.png in Resources */ = {isa = PBXBuildFile; fileRef = FF256A111A15815E00501ED6 /* WD001.png */; };
+		FF256A141A15815E00501ED6 /* WD002.png in Resources */ = {isa = PBXBuildFile; fileRef = FF256A121A15815E00501ED6 /* WD002.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,17 +29,23 @@
 		00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		00B784B10FF439BC000DE1D7 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
 		00B784B20FF439BC000DE1D7 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		0B9F459C1CF047F981A31B40 /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = ../include/Resources.h; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		33E953774EC34CD88A936B0B /* water_rightApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = water_rightApp.cpp; path = ../src/water_rightApp.cpp; sourceTree = "<group>"; };
+		34721FF403B24FEBAA319296 /* water_right_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = water_right_Prefix.pch; sourceTree = "<group>"; };
+		42CFF74A31D5478F9F6F46A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
 		5323E6B50EAFCA7E003A9687 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
 		8D1107320486CEB800E47090 /* water_right.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = water_right.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		33E953774EC34CD88A936B0B /* water_rightApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../src/water_rightApp.cpp; sourceTree = "<group>"; name = water_rightApp.cpp; };
-		0B9F459C1CF047F981A31B40 /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../include/Resources.h; sourceTree = "<group>"; name = Resources.h; };
-		EAE8AFC1763A41829C5AD70E /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; name = CinderApp.icns; };
-		42CFF74A31D5478F9F6F46A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; name = Info.plist; };
-		34721FF403B24FEBAA319296 /* water_right_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = water_right_Prefix.pch; sourceTree = "<group>"; name = water_right_Prefix.pch; };
+		EAE8AFC1763A41829C5AD70E /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = CinderApp.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; };
+		FF256A0B1A15814E00501ED6 /* Waterdrop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Waterdrop.cpp; sourceTree = "<group>"; };
+		FF256A0C1A15814E00501ED6 /* Waterdrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Waterdrop.h; sourceTree = "<group>"; };
+		FF256A0D1A15814E00501ED6 /* WaterdropCon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WaterdropCon.cpp; sourceTree = "<group>"; };
+		FF256A0E1A15814E00501ED6 /* WaterdropCon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterdropCon.h; sourceTree = "<group>"; };
+		FF256A111A15815E00501ED6 /* WD001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = WD001.png; path = ../resources/WD001.png; sourceTree = "<group>"; };
+		FF256A121A15815E00501ED6 /* WD002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = WD002.png; path = ../resources/WD002.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +67,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01B97315FEAEA392516A2CEA /* Blocks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Blocks;
+			sourceTree = "<group>";
+		};
 		080E96DDFE201D6D7F000001 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				FF256A0B1A15814E00501ED6 /* Waterdrop.cpp */,
+				FF256A0C1A15814E00501ED6 /* Waterdrop.h */,
+				FF256A0D1A15814E00501ED6 /* WaterdropCon.cpp */,
+				FF256A0E1A15814E00501ED6 /* WaterdropCon.h */,
 				33E953774EC34CD88A936B0B /* water_rightApp.cpp */,
 			);
 			name = Source;
@@ -112,13 +131,6 @@
 			name = water_right;
 			sourceTree = "<group>";
 		};
-		01B97315FEAEA392516A2CEA /* Blocks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Blocks;
-			sourceTree = "<group>";
-		};
 		29B97315FDCFA39411CA2CEA /* Headers */ = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +143,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FF256A111A15815E00501ED6 /* WD001.png */,
+				FF256A121A15815E00501ED6 /* WD002.png */,
 				EAE8AFC1763A41829C5AD70E /* CinderApp.icns */,
 				42CFF74A31D5478F9F6F46A0 /* Info.plist */,
 			);
@@ -172,6 +186,8 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "water_right" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -196,6 +212,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF256A131A15815E00501ED6 /* WD001.png in Resources */,
+				FF256A141A15815E00501ED6 /* WD002.png in Resources */,
 				1829CDE6A9804FB7AFAF185F /* CinderApp.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -207,6 +225,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF256A0F1A15814E00501ED6 /* Waterdrop.cpp in Sources */,
+				FF256A101A15814E00501ED6 /* WaterdropCon.cpp in Sources */,
 				ABD8F59C52AF4A5EACBF5A69 /* water_rightApp.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,24 +238,24 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				DEAD_CODE_STRIPPING = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = water_right_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = water_right_Prefix.pch;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder_d.a\"";
 				PRODUCT_NAME = water_right;
-				WRAPPER_EXTENSION = app;
 				SYMROOT = ./build;
+				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
@@ -249,31 +269,31 @@
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
 				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = water_right_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"NDEBUG=1",
 					"$(inherited)",
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = water_right_Prefix.pch;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder.a\"";
 				PRODUCT_NAME = water_right;
 				STRIP_INSTALLED_PRODUCT = YES;
-				WRAPPER_EXTENSION = app;
 				SYMROOT = ./build;
+				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
-				CLANG_CXX_LIBRARY = "libc++";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = i386;
-				CINDER_PATH = "../../../../../cinder/cinder_0.8.6_mac";
+				CINDER_PATH = ../../../../../cinder/cinder_0.8.6_mac;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
@@ -286,11 +306,11 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
-				CLANG_CXX_LIBRARY = "libc++";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = i386;
-				CINDER_PATH = "../../../../../cinder/cinder_0.8.6_mac";
+				CINDER_PATH = ../../../../../cinder/cinder_0.8.6_mac;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
