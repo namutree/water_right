@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E02674ED-1F57-45FD-9593-A26FE3DD86B9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>water_right</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>005AF5DAB75689632C7B7E7BC0AAA04AA960EF6D</key>
+		<string>https://github.com/namutree/water_right.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>xcode/water_right.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>005AF5DAB75689632C7B7E7BC0AAA04AA960EF6D</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/namutree/water_right.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>005AF5DAB75689632C7B7E7BC0AAA04AA960EF6D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>005AF5DAB75689632C7B7E7BC0AAA04AA960EF6D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>water_right</string>
+		</dict>
+	</array>
+</dict>
+</plist>
